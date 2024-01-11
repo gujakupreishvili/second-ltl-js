@@ -29,9 +29,9 @@ let thisyear=2024;
 //3)ააწყვეთ პატარა counter ლოგიკა სადაც გამოიყენებთ მაგალითად let x = 10; x++, x-- რომლის მიხედვითაც increment ერთ
 // console-ში მეორე console-ში კი decrement!!
 let x=10;
-let g=x++;
-console.log(g);
-x--;
+x++;
+console.log(x);
+x=x-2;
 console.log(x);
 
 
